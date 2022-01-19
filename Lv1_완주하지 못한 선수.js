@@ -32,4 +32,5 @@ function solution(participant, completion) {
   return participant.find((name, i) => name !== completion[i]);
 }
 
-/*조건에 만족하는 요소가 있으면 반환하고, 반복 중단*/
+/*조건에 만족하는 요소가 있으면 반환하고, 반복 중단
+ filter()와 다름 : 조건에 만족하는 요소를 모두 반환*/
