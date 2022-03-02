@@ -1,4 +1,4 @@
-let input = require("fs").readFileSync("example.txt").toString().split("\n");
+let input = require("fs").readFileSync("/dev/stdin").toString().split("\n");
 var a = parseInt(input[0]);
 var b = parseInt(input[1]);
 console.log(typeof a);
@@ -9,7 +9,7 @@ while (a > 0) {
     a = a - 5;
     count++;
   } else if (a % 3 === 0) {
-    a = a - 5;
+    a = a - 3;
     count++;
   } else if (a > 5) {
     a = a - 5;
