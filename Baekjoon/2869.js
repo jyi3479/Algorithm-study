@@ -1,8 +1,8 @@
 // 최종 답
 let input = require("fs").readFileSync("example.txt").toString().split(" ");
-var a = parseInt(input[0]);
-var b = parseInt(input[1]);
-var c = parseInt(input[2]);
+var a = parseInt(input[0]); // 낮에 올라가는 높이
+var b = parseInt(input[1]); // 밤에 미끄러지는 높이
+var c = parseInt(input[2]); // 총 올라가야 하는 높이
 
 // 하루 동안 올라간 높이 a-b
 // c를 (a-b)로 나누면 마지막 날도 a-b 만큼 올라가는 식이 된다.
