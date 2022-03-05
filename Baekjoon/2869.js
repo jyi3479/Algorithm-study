@@ -1,5 +1,5 @@
 // 최종 답
-let input = require("fs").readFileSync("example.txt").toString().split(" ");
+let input = require("fs").readFileSync("/dev/stdin").toString().split(" ");
 var a = parseInt(input[0]); // 낮에 올라가는 높이
 var b = parseInt(input[1]); // 밤에 미끄러지는 높이
 var c = parseInt(input[2]); // 총 올라가야 하는 높이
